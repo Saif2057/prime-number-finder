@@ -23,3 +23,10 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const primeNumbers = findPrimeNumbers(numbers);
 
 console.log("Prime Numbers:", primeNumbers);
+
+function printResults(primeNumbers) {
+    console.log("Prime Numbers:", primeNumbers);
+}
+
+
+printResults(primeNumbers);
